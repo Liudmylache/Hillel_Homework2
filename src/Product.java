@@ -31,9 +31,10 @@ public class Product {
                 ", price= " + price;
     }
 
-    String toString(String name){
+    /*String toString(String name){
         return "item " + name + " is not available";
     }
+     */
 
     void strq(){
         System.out.println("Error");

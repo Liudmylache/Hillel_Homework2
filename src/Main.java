@@ -10,9 +10,10 @@ public class Main {
 
         System.out.println(displayName);
         System.out.println(product1.toString());
-        System.out.println(product2.toString("Shishito Pepper", 12));
-        System.out.println(product3.toString("Milk"));
-       // System.out.println(product4.toString());
-        product4.strq();
+        System.out.println(product2.toString());
+        //System.out.println(product2.toString("Shishito Pepper", 12));
+        System.out.println(product3.toString());
+        System.out.println(product4.toString());
+        //product4.strq();
     }
 }
