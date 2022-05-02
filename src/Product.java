@@ -17,7 +17,6 @@ public class Product {
     }
     public Product (){
     }
-
     public String toString () {
         return "item: " + name +
                 ", price= " + price +
@@ -25,7 +24,6 @@ public class Product {
                 ", manufacturer= " + manufacturer +
                 ", volume=" + volume;
     }
-
     String toString(String name,int price){
         return "item: " + name +
                 ", price= " + price;
@@ -34,10 +32,10 @@ public class Product {
     /*String toString(String name){
         return "item " + name + " is not available";
     }
-     */
+    */
 
-    void strq(){
+    /*void strq(){
         System.out.println("Error");
     }
-
+    */
 }

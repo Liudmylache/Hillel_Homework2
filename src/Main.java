@@ -7,8 +7,12 @@ public class Main {
         Product product4 = new Product("RedBull", 6,"8/1/24","USA", "250 ml");
 
         String displayName = Supermarket.displayName();
+        Cashier cashier1 = new Cashier ("Mila",1);
+
+
 
         System.out.println(displayName);
+        System.out.println(cashier1.displayCashier());
         System.out.println(product1.toString());
         System.out.println(product2.toString());
         //System.out.println(product2.toString("Shishito Pepper", 12));
