@@ -14,7 +14,5 @@ public class Main {
         System.out.println(product3.toString("Milk"));
        // System.out.println(product4.toString());
         product4.strq();
-
-
     }
 }
